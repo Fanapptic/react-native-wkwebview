@@ -8,14 +8,14 @@ React Native comes with [WebView](http://facebook.github.io/react-native/docs/we
 
 ### Install
 
-1. Install from npm (note the postfix in the package name): `npm install react-native-wkwebview-reborn`
-2. run `react-native link react-native-wkwebview-reborn`
+1. Install from npm (note the postfix in the package name): `npm install fanapptic-react-native-wkwebview-reborn`
+2. run `react-native link fanapptic-react-native-wkwebview-reborn`
 
 **Manual alternative**
 
-1. Install from npm (note the postfix in the package name): `npm install react-native-wkwebview-reborn`
+1. Install from npm (note the postfix in the package name): `npm install fanapptic-react-native-wkwebview-reborn`
 2. In the XCode's "Project navigator", right click on your project's Libraries folder ➜ Add Files to <...>
-3. Go to node_modules ➜ react-native-wkwebview-reborn ➜ ios ➜ select `RCTWKWebView.xcodeproj`
+3. Go to node_modules ➜ fanapptic-react-native-wkwebview-reborn ➜ ios ➜ select `RCTWKWebView.xcodeproj`
 4. Go your build target ➜ Build Phases ➜ Link Binary With Libraries, click "+" and select `libRCTWkWebView.a` (see the following screenshot for reference)
 ![Linking](https://user-images.githubusercontent.com/608221/28060167-0650e3f4-6659-11e7-8085-7a8c2615f90f.png)
 5. Compile and profit (Remember to set Minimum Deployment Target = 8.0)
@@ -24,7 +24,7 @@ React Native comes with [WebView](http://facebook.github.io/react-native/docs/we
 ### Usage
 
 ```js
-import WKWebView from 'react-native-wkwebview-reborn';
+import WKWebView from 'fanapptic-react-native-wkwebview-reborn';
 ```
 
 Try replacing your existing `WebView` with `WKWebView` and it should work in most cases.

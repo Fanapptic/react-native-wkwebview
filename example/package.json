@@ -10,7 +10,7 @@
 		"react": "16.2.0",
 		"react-native": "0.53.2",
 		"prop-types": "15.6.0",
-		"react-native-wkwebview-reborn": "file:../"
+		"fanapptic-react-native-wkwebview-reborn": "file:../"
 	},
 	"devDependencies": {
 		"babel-jest": "19.0.0",

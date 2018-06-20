@@ -5,7 +5,7 @@ import {
   Text,
   View
 } from 'react-native';
-import WkWebView from 'react-native-wkwebview-reborn';
+import WkWebView from 'fanapptic-react-native-wkwebview-reborn';
 
 export default class example extends Component {
   render() {
